@@ -3,28 +3,6 @@
         "generator" : "Khronos glTF Blender I/O v0.9.36",
         "version" : "2.0"
     },
-    "extensionsUsed" : [
-        "KHR_lights_punctual"
-    ],
-    "extensionsRequired" : [
-        "KHR_lights_punctual"
-    ],
-    "extensions" : {
-        "KHR_lights_punctual" : {
-            "lights" : [
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 7,
-                    "type" : "directional",
-                    "name" : "Sun.001"
-                }
-            ]
-        }
-    },
     "scene" : 0,
     "scenes" : [
         {
@@ -44,6 +22,7 @@
             "nodes" : [
                 0,
                 2,
+                3,
                 4,
                 5,
                 6,
@@ -62,9 +41,7 @@
                 19,
                 20,
                 21,
-                22,
-                23,
-                24
+                22
             ]
         }
     ],
@@ -108,31 +85,6 @@
                 7.358891487121582,
                 4.958309173583984,
                 6.925790786743164
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Sun_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                3
-            ],
-            "name" : "Sun",
-            "translation" : [
-                -0.009440317749977112,
-                7.406600475311279,
-                -0.5525063276290894
             ]
         },
         {
@@ -468,7 +420,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "white.001",
+            "name" : "white.002",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     1,
@@ -482,7 +434,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "white.002",
+            "name" : "white.001",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     1,
